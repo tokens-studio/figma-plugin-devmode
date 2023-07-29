@@ -1,0 +1,16 @@
+{
+  "name": "Tokens Studio: Devmode",
+  "version": "0.5.0",
+  "description": "Figma Plugin to inspect used design tokens",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "typescript": "*"
+  }
+}
